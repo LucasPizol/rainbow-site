@@ -1,0 +1,72 @@
+.contact-grid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f092ff;
+  padding: 78px 0;
+}
+
+.contact-div {
+  width: var(--screen-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 39px 0px;
+  color: white;
+  gap: 50px;
+}
+
+.contact-div h1 {
+  font-size: 80px;
+}
+
+.contact-div-bottom h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.contact-div div a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 35px;
+  text-decoration: none;
+  color: #f092ff;
+  background-color: white;
+  padding: 15px;
+  border-radius: 30px;
+  width: 100%;
+  transition: 0.6s;
+}
+
+.contact-div div img {
+  max-width: 58px;
+  width: 100%;
+}
+
+.contact-div div {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+@media (max-width: 550px) {
+  .contact-div div a {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .contact-div div img {
+    max-width: 40px;
+    width: 100%;
+  }
+}
+
+.contact-div a:hover {
+  transform: scale(1.07);
+  background-color: rgb(214, 214, 214);
+}
